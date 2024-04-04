@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de frutas</title>
+    <link rel="stylesheet" href="buscador.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+</head>
+<body>
+    <section id="contenedor-main">
+        <h1>Buscador de frutas</h1>
+        <div>
+            <input type="text" name="buscador" id="buscador" placeholder="🔍 Buscar las frutas"> 
+            <ul id="listaArticulos">
+                <li class="articulo">🫐 Mora</li>
+                <li class="articulo">🍊 Naranja</li>
+                <li class="articulo">🍓 Fresa</li>
+                <li class="articulo">🍐 Pera</li>
+                <li class="articulo">🍍 Piña</li>
+                <li class="articulo">🍌 Guineo</li>
+                <li class="articulo">🍈 Melon</li>
+                <li class="articulo">🥭 Mango</li>
+                <li class="articulo">🥥 Coco</li>
+                <li class="articulo">🥝 Kiwi</li>
+                <li class="articulo">🐉 Piyahaya</li>
+                <li class="articulo">🍋 Limon</li>
+                <li class="articulo">🍇 Uva</li>
+                <li class="articulo">🍑 Melocoton</li>
+                <li class="articulo">🍒 Cereza</li>
+                <li class="articulo">🥑 Aguacate</li>
+                <li class="articulo">🍅 Tomate</li>
+            </ul>
+            <div class="aniadir">
+                <button id="add" onclick="addFruta()">+</button>
+                <input id="addFruta" type="text" placeholder="Add nueva Fruta">
+                <button id="borrar" onclick="borrarFruta()">x</button>
+            </div>
+        </div>
+    </section>
+    <script src="buscador.js"></script>
+</body>
+</html>
